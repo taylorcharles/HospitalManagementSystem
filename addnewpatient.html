@@ -1,0 +1,65 @@
+<body style="background-image: url(imges/pig.jpg);">
+<br>
+<br>
+<form method="post" action="addpatient.php" ><big><big>Patient
+Info :<br>
+  <br>
+  </big></big>
+  <table width:="50%">
+    <tbody>
+      <tr>
+        <td>Patient ID : <br>
+        </td>
+        <td><input name="id" type="text" required=""><br>
+        </td>
+      </tr>
+	  <tr>
+	  <td>Patient Type :<br></td>
+	  <td>
+	  <select name="p_type">
+<option value="in-patient">in-patient</option>
+<option value="out-patient">outpatient</option>
+</select><br><br>
+</td>
+</tr>
+      <tr>
+        <td>Full Name : <br>
+        </td>
+        <td><input name="name" type="text" required=""><br>
+        </td>
+      </tr>
+      <tr>
+        <td>Age : <br>
+        </td>
+        <td><input name="age" type="text" required=""><br>
+        </td>
+      </tr>
+      <tr>
+        <td>Gender : <br>
+        </td>
+        <td><input name="gender" type="text" required=""><br>
+        </td>
+      </tr>
+      <tr>
+        <td>Occupation : <br>
+        </td>
+        <td><input name="occupation" type="text" required=""><br>
+        </td>
+      </tr>
+      <tr>
+        <td>Contact Number<br>
+        </td>
+        <td><input name="mobile" type="text" required=""><br>
+        </td>
+      </tr>
+      <tr>
+        <td>Address<br>
+        </td>
+        <td><textarea cols="30" rows="3" name="address" required=""></textarea> </td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <br>
+  <input name="submit" value="ADD" type="submit">&nbsp; &nbsp; <input name="reset" value="RESET" type="reset"> <big><big><br>
+  </big></big></form>

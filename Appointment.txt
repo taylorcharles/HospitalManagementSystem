@@ -1,0 +1,26 @@
+<div class="col-md-8"></div>
+<div class="card">
+<div class="card-body" style="background-color:#4398DB;color:#ffffff;">
+<h1>Book Appointment</h1>
+</div>
+<div class="card-body">
+<form class="form-group">
+<label>Firstname</label>
+<input type="text" name="Firstname" class="form-control">
+<label>Lastname</label>
+<input type="text" name="last name" class="form-control">
+<label>Email</label>
+<input type="text" name="Email" class="form-control">
+<label>Contact</label>
+<input type="text" name="Contact" class="form-control">
+<label>Doctor Appointment :</label>
+<select class="form-control">
+<option value="Dr Saed Armed from 5pm-9am">Dr.Saed Armed</option>
+<option value="Dr Alhassan Arnold from 9am-5pm">Dr.Saed Armed</option>
+
+<input type="text" name="User name" class="form-control" placeholder="enter NHIS code">
+<input type="submit"name="pat_submit" value="Enter Appointment">
+</form>
+
+<script src="bootstrap.js"</script>
+</div>

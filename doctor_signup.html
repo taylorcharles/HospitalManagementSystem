@@ -1,0 +1,106 @@
+<html>
+<head> 
+<title> SignUp</title>
+</head>
+<link rel="stylesheet" href="css/bootstrap.css">
+<h1 style="color:red; position:absolute; margin-top:180px;margin-left:230px;font-size:32pt;font-name:modern;Forecolor:red;width:231px;">REGISTER HERE</h1>
+<body style="background:url('imges/Hospital_Image.png')">
+            <form method="post" action="dlogin.php">
+			<table style="z-index: 100; left: 164px; position: absolute; top: 300px; font-family: 'Lucida Console';">
+<tbody>
+<tr>
+<td style="text-align: left;color:red;">Name<br>        <!--Doctors Name Tab-->
+</td>
+<td><input name="username" type="text" required=""><br>
+</td>
+</tr>
+
+<tr>
+<td style="text-align: left;color:red;">Password<br>		<!--Password Tab-->
+</td>
+<td><input name="password" type="password" required=""><br>
+</td>
+</tr>
+<tr>
+<td style="text-align: left;color:red;">LoginID<br>			<!-- LoginID Tab-->
+</td>
+<td><input name="id" type="text" required=""><br>
+</td>
+</tr>
+
+<tr>
+<td style="text-align: left; color:red;">ConfirmPassword<br>		<!--ConfirmPassword Tab-->
+</td>
+<td><input name="con_password" type="password" required=""><br>
+</td>
+</tr>
+<br>
+<br>
+ 
+<tr>
+   <td style="text-align: left; color:red;">Department<br>      <!-- Choose Options for Department-->
+                 </td>
+                <td >
+				 <select name="dept">
+<option value="cardiology">cardiology</option>
+<option value="opthalmology">opthalmology</option>
+<option value="neurology">neurology</option>
+<option value="nephrology">nephrology</option>
+<option value="surgery">surgery</option>
+<option value="pediatrics">pediatrics</option>
+
+</select><br><br>
+                    </td>
+            </tr>
+			
+		<tr>
+   <td style="text-align: left; color:red;">Specialization<br>       <!-- Choose Options for Specialization-->
+                 </td>
+                <td >
+				 <select name="spec">
+<option value="cardiology">cardiology</option>
+<option value="pulmonology">pulmonology</option>
+<option value="neurology">neurology</option>
+<option value="nephrology">nephrology</option>
+<option value="opthalmology">opthalmology</option>
+<option value="pediatrics">pediatrics</option>
+
+
+</select><br><br>
+                    </td>
+            </tr>
+			<tr>
+<td style="text-align: left;color:red;">PhoneNumber<br>      <!--Provide Input For phone number-->
+</td>
+<td><input name="number" type="text" required=""><br>        
+</td>
+</tr>
+<tr>
+<td style="text-align: left;color:red;">Address<br>     <!-- Provide Input for Address-->
+</td>
+<td><input name="address" type="text" required=""><br>
+</td>
+</tr>
+<tr>
+<td style="text-align: left;color:red;">Email<br>     <!-- Provide Input for Email-->
+</td>
+<td><input name="email" type="text" required=""><br>
+</td>
+</tr>
+<tr>
+<td>
+  <label style="text-align: left;color:red;"> Remember me</label><br>      <!--Remember me Tab-->
+	  </td>  
+	  <td> <input type="checkbox" name=""></td>
+</tr>
+<tr>
+			<td >
+			<input value="submit" name="submit" type="submit" style="color:blue;"><br>
+			</td>
+			</tr>
+			</tbody>
+			</table>
+			
+		</form>
+</body>
+</html>
